@@ -1,0 +1,11 @@
+export-compendium-tool/
+├── module.json
+├── manifest.json
+├── scripts/
+│   └── export-tool.js
+├── templates/
+│   └── export-ui.html
+├── styles/
+│   └── export-tool.css
+└── lang/
+    └── en.json
