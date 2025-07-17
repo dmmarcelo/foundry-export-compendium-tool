@@ -1,0 +1,7 @@
+#export-compendium-dialog .form-group {
+  max-height: 300px;
+  overflow-y: auto;
+}
+button.export-compendium {
+  margin-left: 10px;
+}
