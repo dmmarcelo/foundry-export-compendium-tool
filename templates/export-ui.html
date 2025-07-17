@@ -1,0 +1,11 @@
+<form>
+  <div class="form-group">
+    <label>Escolha compêndios:</label>
+    {{#each packs}}
+      <div><label><input type="checkbox" name="{{this.key}}"/> {{this.label}}</label></div>
+    {{/each}}
+  </div>
+  <footer class="form-footer">
+    <button type="submit"><i class="fas fa-download"></i> Exportar</button>
+  </footer>
+</form>
