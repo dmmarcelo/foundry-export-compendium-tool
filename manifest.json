@@ -1,0 +1,17 @@
+{
+  "name": "export-compendium-tool",
+  "title": "Export Compendium Tool",
+  "description": "Tool to export world compendia as .db files within a module zip.",
+  "version": "1.0.0",
+  "author": "Marcelo Lima",
+  "minimumCoreVersion": "13",
+  "compatibleCoreVersion": "13",
+  "scripts": ["scripts/export-tool.js"],
+  "styles": ["styles/export-tool.css"],
+  "languages": [
+    { "lang": "en", "name": "English", "path": "lang/en.json" }
+  ],
+  "url": "https://github.com/dmmarcelo/foundry-export-compendium-tool",
+  "manifest": "https://raw.githubusercontent.com/dmmarcelo/foundry-export-compendium-tool/main/manifest.json",
+  "download": "https://github.com/dmmarcelo/foundry-export-compendium-tool/archive/refs/heads/main.zip"
+}
